@@ -9,5 +9,5 @@ resources:
  - ../microservice/redis-service.yaml
 secretGenerator:
  - name: prod-secrets
-   env:
+   envs:
    - secrets/prod-secrets.env
