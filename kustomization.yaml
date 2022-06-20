@@ -9,5 +9,5 @@ resources:
  - ../microservice/redis-service.yaml
 secretGenerator:
  - name: prod-secrets
-   files:
-   - podinfoUIColor=secrets/podinfoUIColor.encrypted
+   env:
+   - secrets/prod-secrets.env
